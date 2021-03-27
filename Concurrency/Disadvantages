@@ -1,0 +1,5 @@
+the performance gain might not be as large as expected; there’s an inherent overhead associated with launching a thread, because the OS has to allocate the associated kernel resources and stack space and then add the new thread to the scheduler, all of which takes time.
+
+f you have too many threads running at once, this consumes OS resources and may make the system as a whole run slower.
+
+he more threads you have running, the more context switching the operating system has to do. Each context switch takes time that could be spent doing useful work, so at some point adding an extra thread will actually reduce the overall application performance rather than increase it. 
