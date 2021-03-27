@@ -1,0 +1,2 @@
+The first, and most obvious, is to divide a single task into parts and run each in parallel, thus reducing the total runtime. This is task parallelism.
+each thread performs the same operation on different parts of the data. This latter approach is called data parallelism.
