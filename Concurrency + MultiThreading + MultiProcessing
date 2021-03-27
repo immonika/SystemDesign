@@ -15,3 +15,4 @@ Disadvan:  if data is accessed by multiple threads, the application programmer m
 
 Using concurrency for separation of concerns
 Separation of concerns is almost always a good idea when writing software; by grouping related bits of code together and keeping unrelated bits of code apart, you can make your programs easier to understand and test, and thus less likely to contain bugs. You can use concurrency to separate distinct areas of functionality, even when the operations in these distinct areas need to happen at the same time; 
+
